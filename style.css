@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.full-screen{
+    display: flex;
+    justify-content: center;
+}
+

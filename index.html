@@ -1,0 +1,42 @@
+<!--   DDDDDOOOOOOONNNNNNNNNNNNEEEEEEEEE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-screen">
+        <h1 class="app-header">Todos</h1>
+
+        <div class="filters-adders">
+
+            <div class="groups">
+                <input type="text" placeholder="Filter todos" id="searchTaskIP">
+                <label>
+                    <input type="checkbox" id="check-Box1"> Hide Completed
+                </label>
+            </div>
+
+
+            <div class="groups">
+                <form id="addTodoForm">
+                    <input type="text" placeholder="Something to do" name="textip">
+                    <button>Add todo</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div id="renderingDiv"></div>
+
+        
+        <script src="uuidv4.js"> </script>
+        <script src="todos_func.js"> </script>
+        <script src="todos_main.js"> </script>
+
+    </div>
+    
+</body>
+</html>
